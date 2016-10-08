@@ -1,20 +1,17 @@
-package com.dane;
+package com.chapter1;
 
 import java.util.Scanner;
 
-public class Chapter1 {
+
+//Problem 1.5
+public class problem1P5 {
 
     public static void main(String[] args) {
-        problem15();
+        problem1P5();
     }
 
-    /************************************************
-     *
-     * Problem 1.5
-     *
-     ************************************************/
 
-    public static void problem15() {
+    public static void problem1P5() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Original: ");
         String original = scanner.nextLine();
